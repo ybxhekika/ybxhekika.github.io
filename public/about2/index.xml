@@ -2,16 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>About2s on LIA WORK</title>
-    <link>http://localhost:7418/about2/</link>
+    <link>http://localhost:10753/about2/</link>
     <description>Recent content in About2s on LIA WORK</description>
     <generator>Hugo</generator>
     <language>zh-CN</language>
-    <atom:link href="http://localhost:7418/about2/index.xml" rel="self" type="application/rss+xml" />
+    <managingEditor>me@m03315.top (Your Name)</managingEditor>
+    <webMaster>me@m03315.top (Your Name)</webMaster>
+    <atom:link href="http://localhost:10753/about2/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>I am otaku</title>
-      <link>http://localhost:7418/about2/iamotaku/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:7418/about2/iamotaku/</guid>
+      <link>http://localhost:10753/about2/iamotaku/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>me@m03315.top (Your Name)</author>
+      <guid>http://localhost:10753/about2/iamotaku/</guid>
       <description>&lt;p&gt;　&lt;/p&gt;&#xA;&lt;p&gt;我还在写……（待续未完）&lt;/p&gt;</description>
     </item>
   </channel>

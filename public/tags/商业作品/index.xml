@@ -2,18 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>商业作品 on LIA WORK</title>
-    <link>http://localhost:7418/tags/%E5%95%86%E4%B8%9A%E4%BD%9C%E5%93%81/</link>
+    <link>http://localhost:10753/tags/%E5%95%86%E4%B8%9A%E4%BD%9C%E5%93%81/</link>
     <description>Recent content in 商业作品 on LIA WORK</description>
     <generator>Hugo</generator>
     <language>zh-CN</language>
+    <managingEditor>me@m03315.top (Your Name)</managingEditor>
+    <webMaster>me@m03315.top (Your Name)</webMaster>
     <lastBuildDate>Thu, 30 Jan 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:7418/tags/%E5%95%86%E4%B8%9A%E4%BD%9C%E5%93%81/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:10753/tags/%E5%95%86%E4%B8%9A%E4%BD%9C%E5%93%81/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>idol-showa/reiwa</title>
-      <link>http://localhost:7418/posts/idol-showareiwa/</link>
-      <pubDate>Thu, 30 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:7418/posts/idol-showareiwa/</guid>
-      <description>&lt;p&gt;2025年9月的时候为了公司一个项目画的稿，结果没画完色稿项目就流了……于是一直没有完稿……&lt;/p&gt;&#xA;&lt;p&gt;但是我个人还是很喜欢这个稿件，花了很多心机，包括这个“昭和偶像x令和偶像”的主题也是我提出来的。&lt;/p&gt;&#xA;&lt;p&gt;　　&lt;img src=&#34;http://localhost:7418/image/idolshouwareiwa.jpg&#34; alt=&#34;偶像稿件&#34; style=&#34;width: 100%; display: block; margin: 0 auto;&#34;&gt;　&lt;/p&gt;&#xA;&lt;p&gt;左边作为昭和偶像的代表参考了早期偶像系女童动画和超时空要塞等对于昭和歌姬的概念（画风也是仿美树本晴彦的），右边则是参考了类似2015年女童动画偶像潮和vtuber流行的画风来设计的……总之就是真的花了很多心机查了很多资料，糅合了很多我喜欢的东西的一张图……&lt;/p&gt;</description>
+      <link>http://localhost:10753/posts/idol-showareiwa/</link>
+      <pubDate>Thu, 30 Jan 2025 00:00:00 +0000</pubDate><author>me@m03315.top (Your Name)</author>
+      <guid>http://localhost:10753/posts/idol-showareiwa/</guid>
+      <description>&lt;p&gt;2025年9月的时候为了公司一个项目画的稿，结果没画完色稿项目就流了……于是一直没有完稿……&lt;/p&gt;&#xA;&lt;p&gt;但是我个人还是很喜欢这个稿件，花了很多心机，包括这个“昭和偶像x令和偶像”的主题也是我提出来的。&lt;/p&gt;&#xA;&lt;p&gt;　　&lt;img src=&#34;http://localhost:10753/image/idolshouwareiwa.jpg&#34; alt=&#34;偶像稿件&#34; style=&#34;width: 100%; display: block; margin: 0 auto;&#34;&gt;　&lt;/p&gt;&#xA;&lt;p&gt;左边作为昭和偶像的代表参考了早期偶像系女童动画和超时空要塞等对于昭和歌姬的概念（画风也是仿美树本晴彦的），右边则是参考了类似2015年女童动画偶像潮和vtuber流行的画风来设计的……总之就是真的花了很多心机查了很多资料，糅合了很多我喜欢的东西的一张图……&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -2,10 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>参与项目 on LIA WORK</title>
-    <link>http://localhost:7418/portfolio/</link>
+    <link>http://localhost:10753/portfolio/</link>
     <description>Recent content in 参与项目 on LIA WORK</description>
     <generator>Hugo</generator>
     <language>zh-CN</language>
-    <atom:link href="http://localhost:7418/portfolio/index.xml" rel="self" type="application/rss+xml" />
+    <managingEditor>me@m03315.top (Your Name)</managingEditor>
+    <webMaster>me@m03315.top (Your Name)</webMaster>
+    <atom:link href="http://localhost:10753/portfolio/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

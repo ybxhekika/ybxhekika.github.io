@@ -2,18 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>IT on LIA WORK</title>
-    <link>http://localhost:7418/categories/it/</link>
+    <link>http://localhost:10753/categories/it/</link>
     <description>Recent content in IT on LIA WORK</description>
     <generator>Hugo</generator>
     <language>zh-CN</language>
+    <managingEditor>me@m03315.top (Your Name)</managingEditor>
+    <webMaster>me@m03315.top (Your Name)</webMaster>
     <lastBuildDate>Wed, 08 Oct 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:7418/categories/it/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:10753/categories/it/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>电子书翻译的尝试</title>
-      <link>http://localhost:7418/posts/ebook-kouhoku/</link>
-      <pubDate>Wed, 08 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:7418/posts/ebook-kouhoku/</guid>
-      <description>&lt;p&gt;说在前面：好久没有爽看儿童文学了，谢谢你勇岭熏老师。&lt;/p&gt;&#xA;&lt;p&gt;我小时候没有太多看日本作者的儿童文学的经历，所以也感谢出版了新装版的星海社，让我在这个年头遇到「少年名侦探虹北恭助」系列……&lt;/p&gt;&#xA;&lt;p&gt;勇岭熏老师有不少作品其实是有中文出版的，一部分的作品在国内的少儿图书馆也能看到……可惜，「少年名侦探虹北恭助」系列并不是……&lt;/p&gt;&#xA;&lt;p&gt;　&lt;/p&gt;&#xA;&lt;p&gt;太可恶了，这可是我恨不得自己在小时候坐在少儿图书馆的桌椅上看的作品啊。……这让我萌生了自己做汉化的心，至少想给看不懂日语的亲友们分享这份感动……&lt;/p&gt;&#xA;&lt;p&gt;翻译和修图这种工作难不倒我，于是我想着既然如此为什么我不学习一下电子书排版和封装呢？基于html的话我应该也能做到吧！&lt;/p&gt;&#xA;&lt;img src=&#34;http://localhost:7418/image/honhoku.jpg&#34; alt=&#34;epub封装&#34; style=&#34;width: 100%; display: block; margin: 0 auto;&#34;&gt;&#xA;&lt;p&gt;　&lt;/p&gt;&#xA;&lt;p&gt;……没想到其实真的比我想象中还要简单的「很简单」，epub封装这种事甚至不需要html的知识我想也可以做到。&lt;/p&gt;&#xA;&lt;p&gt;　&#xA;&lt;img src=&#34;http://localhost:7418/image/honkoku2.jpg&#34; alt=&#34;虹北嵌字&#34; style=&#34;width: 100%; display: block; margin: 0 auto;&#34;&gt;&#xA;&lt;img src=&#34;http://localhost:7418/image/honkoku3.jpg&#34; alt=&#34;虹北翻译&#34; style=&#34;width: 100%; display: block; margin: 0 auto;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;勇岭熏老师的文字也让人觉得翻译起来非常愉快，看的时候我就有这种感觉了，果然是儿童文学作家，有种文字自己灌进脑袋的爽感。&lt;/p&gt;&#xA;&lt;p&gt;翻译的时候我也想着一定要尽量保留这种感觉……&lt;/p&gt;&#xA;&lt;p&gt;嵌字也尽量做了和原本装帧风格非常类似的字体，御宅族永远注重这种地方……！&lt;/p&gt;&#xA;&lt;p&gt;好的作品感觉做汉化的时候也会让我很快乐，虽然说了很多次还是想说：谢谢你勇岭熏老师。&lt;/p&gt;&#xA;&lt;p&gt;　&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;（此汉化版本不对外开放，不过如果看到这个文章的您想要这份epub的话，可以凭借勇岭熏老师任意书籍的购买记录联络我跟我交换！）&lt;/em&gt;&lt;/p&gt;</description>
+      <link>http://localhost:10753/posts/ebook-kouhoku/</link>
+      <pubDate>Wed, 08 Oct 2025 00:00:00 +0000</pubDate><author>me@m03315.top (Your Name)</author>
+      <guid>http://localhost:10753/posts/ebook-kouhoku/</guid>
+      <description>&lt;p&gt;说在前面：好久没有爽看儿童文学了，谢谢你勇岭熏老师。&lt;/p&gt;&#xA;&lt;p&gt;我小时候没有太多看日本作者的儿童文学的经历，所以也感谢出版了新装版的星海社，让我在这个年头遇到「少年名侦探虹北恭助」系列……&lt;/p&gt;&#xA;&lt;p&gt;勇岭熏老师有不少作品其实是有中文出版的，一部分的作品在国内的少儿图书馆也能看到……可惜，「少年名侦探虹北恭助」系列并不是……&lt;/p&gt;&#xA;&lt;p&gt;　&lt;/p&gt;&#xA;&lt;p&gt;太可恶了，这可是我恨不得自己在小时候坐在少儿图书馆的桌椅上看的作品啊。……这让我萌生了自己做汉化的心，至少想给看不懂日语的亲友们分享这份感动……&lt;/p&gt;&#xA;&lt;p&gt;翻译和修图这种工作难不倒我，于是我想着既然如此为什么我不学习一下电子书排版和封装呢？基于html的话我应该也能做到吧！&lt;/p&gt;&#xA;&lt;img src=&#34;http://localhost:10753/image/honhoku.jpg&#34; alt=&#34;epub封装&#34; style=&#34;width: 100%; display: block; margin: 0 auto;&#34;&gt;&#xA;&lt;p&gt;　&lt;/p&gt;&#xA;&lt;p&gt;……没想到其实真的比我想象中还要简单的「很简单」，epub封装这种事甚至不需要html的知识我想也可以做到。&lt;/p&gt;&#xA;&lt;p&gt;　&#xA;&lt;img src=&#34;http://localhost:10753/image/honkoku2.jpg&#34; alt=&#34;虹北嵌字&#34; style=&#34;width: 100%; display: block; margin: 0 auto;&#34;&gt;&#xA;&lt;img src=&#34;http://localhost:10753/image/honkoku3.jpg&#34; alt=&#34;虹北翻译&#34; style=&#34;width: 100%; display: block; margin: 0 auto;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;勇岭熏老师的文字也让人觉得翻译起来非常愉快，看的时候我就有这种感觉了，果然是儿童文学作家，有种文字自己灌进脑袋的爽感。&lt;/p&gt;&#xA;&lt;p&gt;翻译的时候我也想着一定要尽量保留这种感觉……&lt;/p&gt;&#xA;&lt;p&gt;嵌字也尽量做了和原本装帧风格非常类似的字体，御宅族永远注重这种地方……！&lt;/p&gt;&#xA;&lt;p&gt;好的作品感觉做汉化的时候也会让我很快乐，虽然说了很多次还是想说：谢谢你勇岭熏老师。&lt;/p&gt;&#xA;&lt;p&gt;　&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;（此汉化版本不对外开放，不过如果看到这个文章的您想要这份epub的话，可以凭借勇岭熏老师任意书籍的购买记录联络我跟我交换！）&lt;/em&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

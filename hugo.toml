@@ -16,10 +16,14 @@ theme = "nomad-tech"
     weight = 1
 
 [params]
-  author = "LIA WORK"
+  authorname = "LIA WORK"
   logo = "LIA WORK"
   subtitle = "LIA YUAN的个人作品集网站"
   description = "(*´ω｀*)欢迎您来"
+
+[params.author]     
+    email = "me@m03315.top"
+    name = "Your Name"
 
   # Analytics (optional)
   googleAnalytics = "G-2310RJEC91"
@@ -172,6 +176,3 @@ theme = "nomad-tech"
 [markup.goldmark.renderer]
   unsafe = true
   
-[author]
-  email = "763390846@qq.com"   # 可以填你之前用于联系的真实或专用邮箱
-  name = "LIAYUAN"       # 可选，但建议加上

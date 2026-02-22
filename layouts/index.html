@@ -1,7 +1,7 @@
 {{ define "main" }}
 <section class="hero">
     <div class="hero-content">
-        <h1>{{ i18n "hero_greeting" }} {{ .Site.Params.author | default "ABAA" }}</h1>
+        <h1>{{ i18n "hero_greeting" }} {{ .Site.Params.authorname | default "ABAA" }}</h1>
         <p>{{ .Site.Params.subtitle | default "CDAB" }}</p>
         <p>{{ .Site.Params.description | default "" }}</p>
         <div class="cta-buttons">

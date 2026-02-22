@@ -2,45 +2,47 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on LIA WORK</title>
-    <link>http://localhost:7418/categories/</link>
+    <link>http://localhost:10753/categories/</link>
     <description>Recent content in Categories on LIA WORK</description>
     <generator>Hugo</generator>
     <language>zh-CN</language>
+    <managingEditor>me@m03315.top (Your Name)</managingEditor>
+    <webMaster>me@m03315.top (Your Name)</webMaster>
     <lastBuildDate>Wed, 08 Oct 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:7418/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:10753/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>IT</title>
-      <link>http://localhost:7418/categories/it/</link>
-      <pubDate>Wed, 08 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:7418/categories/it/</guid>
+      <link>http://localhost:10753/categories/it/</link>
+      <pubDate>Wed, 08 Oct 2025 00:00:00 +0000</pubDate><author>me@m03315.top (Your Name)</author>
+      <guid>http://localhost:10753/categories/it/</guid>
       <description></description>
     </item>
     <item>
       <title>翻译</title>
-      <link>http://localhost:7418/categories/%E7%BF%BB%E8%AF%91/</link>
-      <pubDate>Wed, 08 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:7418/categories/%E7%BF%BB%E8%AF%91/</guid>
+      <link>http://localhost:10753/categories/%E7%BF%BB%E8%AF%91/</link>
+      <pubDate>Wed, 08 Oct 2025 00:00:00 +0000</pubDate><author>me@m03315.top (Your Name)</author>
+      <guid>http://localhost:10753/categories/%E7%BF%BB%E8%AF%91/</guid>
       <description></description>
     </item>
     <item>
       <title>美工</title>
-      <link>http://localhost:7418/categories/%E7%BE%8E%E5%B7%A5/</link>
-      <pubDate>Thu, 25 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:7418/categories/%E7%BE%8E%E5%B7%A5/</guid>
+      <link>http://localhost:10753/categories/%E7%BE%8E%E5%B7%A5/</link>
+      <pubDate>Thu, 25 Sep 2025 00:00:00 +0000</pubDate><author>me@m03315.top (Your Name)</author>
+      <guid>http://localhost:10753/categories/%E7%BE%8E%E5%B7%A5/</guid>
       <description></description>
     </item>
     <item>
       <title>绘画</title>
-      <link>http://localhost:7418/categories/%E7%BB%98%E7%94%BB/</link>
-      <pubDate>Thu, 30 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:7418/categories/%E7%BB%98%E7%94%BB/</guid>
+      <link>http://localhost:10753/categories/%E7%BB%98%E7%94%BB/</link>
+      <pubDate>Thu, 30 Jan 2025 00:00:00 +0000</pubDate><author>me@m03315.top (Your Name)</author>
+      <guid>http://localhost:10753/categories/%E7%BB%98%E7%94%BB/</guid>
       <description></description>
     </item>
     <item>
       <title>视频</title>
-      <link>http://localhost:7418/categories/%E8%A7%86%E9%A2%91/</link>
-      <pubDate>Thu, 30 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:7418/categories/%E8%A7%86%E9%A2%91/</guid>
+      <link>http://localhost:10753/categories/%E8%A7%86%E9%A2%91/</link>
+      <pubDate>Thu, 30 Jan 2025 00:00:00 +0000</pubDate><author>me@m03315.top (Your Name)</author>
+      <guid>http://localhost:10753/categories/%E8%A7%86%E9%A2%91/</guid>
       <description></description>
     </item>
   </channel>
