@@ -1,0 +1,174 @@
+baseURL = "https://ybxhekika.github.io/"
+defaultContentLanguage = "zh"
+theme = "nomad-tech"
+
+[pagination]
+  pagerSize = 6
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+[languages]
+  [languages.zh]
+    languageCode = "zh-CN"
+    title = "LIA WORK"
+    weight = 1
+
+[params]
+  author = "LIA WORK"
+  logo = "LIA WORK"
+  subtitle = "LIA YUAN的个人作品集"
+  description = ""
+
+  # Analytics (optional)
+  googleAnalytics = "G-2310RJEC91"
+
+  # Social Media Links
+  [[params.social]]
+    name = "email"
+    class = "youtube"
+    icon = "📧"
+    description = "763390846@qq.com"
+    url = "763390846@qq.com"
+    button_text = "复制邮箱地址"
+
+  [[params.social]]
+    name = "wechat"
+    class = "wechat"
+    icon = "💬"
+    description = "微信号：raito_lia"
+    url = "raito_lia"
+    button_text = "复制微信号"
+
+  # Portfolio Items
+
+[[params.portfolio]]
+  title = "WA-MUSIC "
+  type = "线下活动"
+  icon = "📱" # 现在作为备选显示
+  image = "/portfolio/pic/wamusic.png" # 【新增】关键：图片路径
+  description = "音乐节的视觉面及执行团队统筹"
+  tags = ["视觉设计", "执行统筹", "视频剪辑", "平面设计"]
+  project_url = "/project/wamusic"
+
+[[params.portfolio]]
+  title = "WIND AND SEA 熊谷隆志采访"
+  type = "采访"
+  icon = "🌐"
+  image = "/portfolio/pic/WINDANDSEA.png" # 【新增】关键：图片路径
+  description = "上海时装周采访视频文案翻译及视频剪辑后期"
+  tags = ["文案翻译（日语）", "视频拍摄", "视频剪辑", "视频后期"]
+  project_url = "/project/windandsea"
+
+[[params.portfolio]]
+  title = "BAND ANIME 音乐番同人ONLY"
+  type = "线下活动"
+  icon = "🌐"
+  image = "/portfolio/pic/BANDANIME.png" # 【新增】关键：图片路径
+  description = "ONLY主题展的视觉设计及周边设计"
+  tags = ["视觉设计", "周边产品设计"]
+  project_url = "/project/bandanime"
+
+[[params.portfolio]]
+  title = "安华汇-AH创趣场"
+  type = "实地搭建"
+  icon = "📱" # 现在作为备选显示
+  image = "/portfolio/pic/anhua.png" # 【新增】关键：图片路径
+  description = "街区吉祥物角色的AI生成及搭建物料的平面设计、LOGO设计"
+  tags = ["AI生图", "平面设计", "线下搭建", "LOGO设计"]
+  project_url = "/project/anhua"
+
+[[params.portfolio]]
+  title = "实验品家族"
+  type = "动画片"
+  icon = "🌐"
+  image = "/portfolio/pic/SYPJT.jpg" # 【新增】关键：图片路径
+  description = "动画制片"
+  tags = ["统筹管理"]
+  project_url = "/project/shiyanpin"
+
+[[params.portfolio]]
+  title = "iGT STAR GAZER"
+  type = "产品宣传片"
+  icon = "🌐"
+  image = "/portfolio/pic/iGTSTARGAZER.png" # 【新增】关键：图片路径
+  description = "产品宣传片拍摄与后期"
+  tags = ["视频拍摄", "特效合成"]
+  project_url = "/project/igt"
+
+[[params.portfolio]]
+  title = "痛车设计及痛车展台设计"
+  type = "车膜设计"
+  icon = "🌐"
+  image = "/portfolio/pic/TONGFENG.png" # 【新增】关键：图片路径
+  description = "痛车车膜设计及展台物料设计落地"
+  tags = ["车膜设计", "展台物料"]
+  project_url = "/project/tongche"
+
+[[params.portfolio]]
+  title = "其他媒体类工作项目"
+  type = "更多"
+  icon = "🌐"
+  image = "/portfolio/pic/video.jpg" # 【新增】关键：图片路径
+  description = "拍摄/剪辑/后期等视频类工作项目"
+  tags = ["电商落地"]
+  project_url = "/project/video"
+
+[[params.portfolio]]
+  title = "其他平面类工作项目"
+  type = "更多"
+  icon = "🌐"
+  image = "/portfolio/pic/gra.jpg" # 【新增】关键：图片路径
+  description = "海报/相片/美工套图等工作项目"
+  tags = ["电商落地"]
+  project_url = "/project/graphic"
+
+
+  # Travel Timeline
+  [[params.travels]]
+    city = "视觉设计总监"
+    country = "广州市星火传媒有限公司"
+    flag = ""
+    period = "2021.02 - 2026.01"
+    description =  """
+・汽车、电动车的贴膜图案设计，漫展出展搭建物料的设计与落地
+・商场活动及展会活动的执行统筹，视觉平面设计，周边商品设计
+"""
+    highlights = ["平面设计", "视频设计", "项目管理" , "展台搭建", "周边设计"]
+    more_url = "/timeline/more/1/"   # 👈 新增：详情页链接
+
+ 
+  [[params.travels]]
+    city = "平面设计师"
+    country = "广州市潮库信息科技有限公司"
+    flag = ""
+    period = "2018.09 - 2021.01"
+    description = "・潮牌、运动鞋、运动品牌产品以推广目的的短片摄影，广告平面设计"
+    highlights = ["平面设计", "视频特效", "影像调色", "分镜",  "翻译" , "项目管理"]
+    more_url = "/timeline/more/1/"   # 👈 新增：详情页链接
+
+  [[params.travels]]
+    city = "制作管理"
+    country = "广州大火鸟文化传媒有限公司"
+    flag = ""
+    period = "2017.01 - 2018.08"
+    description = "・动画制作团队内部统筹管理，辅助不同工作岗位及公司内部外部团队之间的协调沟通"
+    highlights = ["项目管理", "业务对接"]
+    more_url = "/timeline/more/1/"   # 👈 新增：详情页链接
+
+
+  # Contact Information
+  [[params.contact]]
+    icon = "📧"
+    name = "email"
+    value = "763390846@qq.com"
+  
+  [[params.contact]]
+    icon = "💬"
+    name = "wechat"
+    value = "raito_lia"
+
+[markup.goldmark.renderer]
+  unsafe = true
+  

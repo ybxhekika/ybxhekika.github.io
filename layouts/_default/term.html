@@ -1,0 +1,38 @@
+{{ define "main" }}
+{{/* ========== 调试信息开始 ========== */}}
+<div style="background: #f0f0f0; color: #333; padding: 1rem; margin-bottom: 2rem; border-radius: 5px; font-family: monospace;">
+    <h3 style="margin-top:0;">调试信息（分类页）</h3>
+    <p><strong>当前页面类型 (Kind):</strong> {{ .Kind }}</p>
+    <p><strong>页面标题 (Title):</strong> “{{ .Title }}”</p>
+    <p><strong>分类/标签名称 (Data.Term):</strong> “{{ .Data.Term }}”</p>
+    <p><strong>识别到的文章总数 (len .Pages):</strong> {{ len .Pages }}</p>
+    <hr style="margin: 1rem 0;">
+    <p><strong>所有文章的标题列表：</strong></p>
+    <ul>
+    {{ range .Pages }}
+        <li>“{{ .Title }}” (分类: {{ .Params.categories }})</li>
+    {{ else }}
+        <li><em>⚠️ 没有遍历到任何文章</em></li>
+    {{ end }}
+    </ul>
+</div>
+{{/* ========== 调试信息结束 ========== */}}
+<div style="margin-top: 5rem; padding: 2rem; background: rgba(255, 255, 255, 0.02); border-radius: 15px; border: 1px solid rgba(255, 255, 255, 0.1);">
+    <h1 style="color: #00d4ff; margin-bottom: 2rem; text-align: center;">{{ .Title }}</h1>
+    <div class="blog-posts">
+        {{ range .Pages }}
+        <article class="blog-post">
+            <h3>{{ .Title }}</h3>
+            <div class="blog-meta">
+                {{ .Date.Format (i18n "date_format") }} • 
+                {{ range .Params.categories }}
+                <span class="category-tag">{{ . }}</span>
+                {{ end }}
+            </div>
+            <p>{{ .Summary }}</p>
+            <a href="{{ .Permalink }}" class="btn btn-secondary">{{ i18n "read_more" }}</a>
+        </article>
+        {{ end }}
+    </div>
+</div>
+{{ end }}

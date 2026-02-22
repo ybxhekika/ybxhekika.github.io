@@ -1,0 +1,101 @@
+{{ define "main" }}
+<div style="margin-top: 5rem; padding: 2rem;">
+    <div style="max-width: 1200px; margin: 0 auto;">
+        <div style="text-align: center; margin-bottom: 3rem;">
+            <h1 style="color: #00d4ff; font-size: 3rem; margin-bottom: 1rem;">{{ .Title }}</h1>
+            <p style="font-size: 1.2rem; opacity: 0.9;">{{ .Content }}</p>
+        </div>
+        <div class="social-grid">
+            {{ range .Site.Params.social }}
+            <div class="social-card">
+                <div class="social-icon {{ .class }}">{{ .icon }}</div>
+                <h3>{{ .name }}</h3>
+                <p>{{ .description }}</p>
+                
+                {{/* 判断：如果是邮箱或微信，则显示复制按钮 */}}
+                {{ if or (eq .name "email") (eq .name "wechat") }}
+                    <button 
+                        class="btn btn-primary copy-btn" 
+                        data-copy-text="{{ .url }}"
+                        data-icon="{{ .icon }}"
+                        data-button-text="{{ .button_text }}"
+                        type="button"
+                        style="margin-top: 1rem;"
+                    >
+                        {{ .icon }} {{ .button_text }}
+                    </button>
+                    <span class="copy-feedback" style="display: none; margin-left: 8px; color: #00d4ff;">✓ 已复制</span>
+                {{ else }}
+                    {{/* 其他平台保持为跳转链接 */}}
+                    <a href="{{ .url }}" class="btn btn-primary" target="_blank" rel="noopener" style="margin-top: 1rem;">
+                        {{ .icon }} {{ .button_text }}
+                    </a>
+                {{ end }}
+                
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const copyButtons = document.querySelectorAll('.copy-btn');
+    
+    copyButtons.forEach(button => {
+        button.addEventListener('click', async function() {
+            const textToCopy = this.getAttribute('data-copy-text');
+            const icon = this.getAttribute('data-icon');
+            const originalButtonText = this.getAttribute('data-button-text');
+            const feedbackSpan = this.nextElementSibling;
+            const originalHTML = this.innerHTML;
+
+            try {
+                await navigator.clipboard.writeText(textToCopy);
+                
+                // 显示成功反馈
+                if (feedbackSpan && feedbackSpan.classList.contains('copy-feedback')) {
+                    feedbackSpan.style.display = 'inline';
+                    setTimeout(() => {
+                        feedbackSpan.style.display = 'none';
+                    }, 2000);
+                }
+                
+                // 临时改变按钮外观
+                this.innerHTML = `${icon} ✓ 已复制`;
+                this.style.backgroundColor = '#2a9d8f';
+                
+                setTimeout(() => {
+                    this.innerHTML = originalHTML;
+                    this.style.backgroundColor = '';
+                }, 2000);
+                
+            } catch (err) {
+                console.error('复制失败，尝试备用方法:', err);
+                
+                // 降级方案
+                const textArea = document.createElement('textarea');
+                textArea.value = textToCopy;
+                textArea.style.position = 'fixed';
+                document.body.appendChild(textArea);
+                textArea.focus();
+                textArea.select();
+                
+                try {
+                    const successful = document.execCommand('copy');
+                    const platformName = originalButtonText.includes('邮箱') ? '邮箱' : (originalButtonText.includes('微信') ? '微信号' : '信息');
+                    if (successful) {
+                        alert(platformName + '已复制到剪贴板：' + textToCopy);
+                    } else {
+                        throw new Error('复制失败');
+                    }
+                } catch (execErr) {
+                    alert('请手动复制：' + textToCopy);
+                }
+                document.body.removeChild(textArea);
+            }
+        });
+    });
+});
+</script>
+{{ end }}

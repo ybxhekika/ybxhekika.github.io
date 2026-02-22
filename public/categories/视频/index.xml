@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>视频 on LIA WORK</title>
+    <link>http://localhost:7418/categories/%E8%A7%86%E9%A2%91/</link>
+    <description>Recent content in 视频 on LIA WORK</description>
+    <generator>Hugo</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Thu, 30 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:7418/categories/%E8%A7%86%E9%A2%91/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>《我的少年》单行本纪念CM</title>
+      <link>http://localhost:7418/posts/watashinoshhounen/</link>
+      <pubDate>Thu, 30 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:7418/posts/watashinoshhounen/</guid>
+      <description>&lt;p&gt;2016年为了纪念「私の少年」（作者：高野ひと深 / 当时出版社：双葉社）单行本第一卷发售，用第一话的内容做的一个仿TVCM风格的视频&lt;/p&gt;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;div style=&#34;position: relative; width: 100%; padding-bottom: 56.25%; margin: 1rem 0;&#34;&gt;&#xD;&#xA;    &lt;iframe &#xD;&#xA;        src=&#34;//www.bilibili.com/blackboard/html5mobileplayer.html?bvid=BV1Ms411v7AE&amp;page=1&amp;high_quality=1&amp;danmaku=0&amp;autoplay=0&#34;&#xD;&#xA;        style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none; border-radius: 8px;&#34;&#xD;&#xA;        scrolling=&#34;no&#34;&#xD;&#xA;        frameborder=&#34;no&#34;&#xD;&#xA;        allowfullscreen=&#34;true&#34;&#xD;&#xA;        sandbox=&#34;allow-top-navigation allow-same-origin allow-forms allow-scripts allow-popups allow-presentation&#34;&#xD;&#xA;    &gt;&#xD;&#xA;    &lt;/iframe&gt;&#xD;&#xA;&lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>为自己喜欢的JPOP歌曲做的5个小视频</title>
+      <link>http://localhost:7418/posts/video/</link>
+      <pubDate>Fri, 03 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:7418/posts/video/</guid>
+      <description>&lt;p&gt;Dance with Misery - FIVE NEW OLD (2018)&lt;/p&gt;&#xA;&#xD;&#xA;&#xD;&#xA; &#xD;&#xA;&#xD;&#xA;&lt;div class=&#34;video-click-wrapper&#34; style=&#34;position: relative; width: 100%; margin: 0 auto; cursor: pointer;&#34;&gt;&#xD;&#xA;    &lt;img src=&#34;http://localhost:7418/image/DWM.png&#34; alt=&#34;视频封面&#34; style=&#34;width: 100%; display: block; border-radius: 8px;&#34;&gt;&#xD;&#xA;    &lt;div style=&#34;position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); background: rgba(0,0,0,0.7); color: white; width: 60px; height: 60px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 24px; border: 2px solid white;&#34;&gt;▶&lt;/div&gt;&#xD;&#xA;    &lt;video controls style=&#34;display: none; width: 100%; border-radius: 8px;&#34; preload=&#34;none&#34;&gt;&lt;/video&gt;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&#xD;&#xA;&lt;script&gt;&#xD;&#xA;(function() {&#xD;&#xA;    const wrappers = document.querySelectorAll(&#39;.video-click-wrapper&#39;);&#xD;&#xA;    wrappers.forEach(wrapper =&gt; {&#xD;&#xA;        wrapper.addEventListener(&#39;click&#39;, function(e) {&#xD;&#xA;            const video = this.querySelector(&#39;video&#39;);&#xD;&#xA;            const img = this.querySelector(&#39;img&#39;);&#xD;&#xA;            const playBtn = this.querySelector(&#39;div&#39;);&#xD;&#xA;            if (video &amp;&amp; !video.src) {&#xD;&#xA;                video.src = &#39;https:\/\/liayuan-1312846655.cos.ap-guangzhou.myqcloud.com\/dance%20with%20misery.mp4&#39;;&#xD;&#xA;                video.load();&#xD;&#xA;                video.style.display = &#39;block&#39;;&#xD;&#xA;                img.style.display = &#39;none&#39;;&#xD;&#xA;                if (playBtn) playBtn.style.display = &#39;none&#39;;&#xD;&#xA;                video.play().catch(() =&gt; {});&#xD;&#xA;            }&#xD;&#xA;        });&#xD;&#xA;    });&#xD;&#xA;})();&#xD;&#xA;&lt;/script&gt;&#xA;&lt;p&gt;　&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

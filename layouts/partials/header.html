@@ -1,0 +1,16 @@
+<nav role="navigation" aria-label="Main navigation">
+    <div class="container">
+        <div class="nav-container">
+            <a href="{{ .Site.BaseURL }}" class="logo" aria-label="{{ .Site.Title }} - Home">{{ .Site.Params.logo | default "GP" }}</a>
+            <ul class="nav-links" id="nav-menu">
+                <li><a href="{{ .Site.BaseURL }}" aria-current="false">{{ i18n "home" }}</a></li>
+                <li><a href="{{ .Site.BaseURL }}about/" aria-current="false">{{ i18n "about" }}</a></li>
+                <li><a href="{{ .Site.BaseURL }}portfolio/" aria-current="false">{{ i18n "blog" }}</a></li>
+                <li><a href="{{ .Site.BaseURL }}posts/" aria-current="false">{{ i18n "portfolio" }}</a></li>
+                <li><a href="{{ .Site.BaseURL }}travel/" aria-current="false">{{ i18n "travel" }}</a></li>
+                <li><a href="{{ .Site.BaseURL }}social/" aria-current="false">{{ i18n "social" }}</a></li>
+            </ul>
+            <button class="mobile-menu-btn" aria-expanded="false" aria-controls="nav-menu" aria-label="Toggle navigation menu">☰</button>
+        </div>
+    </div>
+</nav>

@@ -1,0 +1,33 @@
+{{ define "main" }}
+{{/* ========== 调试信息开始 ========== */}}
+<div style="background: #f0f0f0; color: #333; padding: 1rem; margin-bottom: 2rem; border-radius: 5px; font-family: monospace;">
+    <h3 style="margin-top:0;">调试信息（分类页）</h3>
+    <p><strong>当前页面类型 (Kind):</strong> {{ .Kind }}</p>
+    <p><strong>页面标题 (Title):</strong> “{{ .Title }}”</p>
+    <p><strong>分类/标签名称 (Data.Term):</strong> “{{ .Data.Term }}”</p>
+    <p><strong>识别到的文章总数 (len .Pages):</strong> {{ len .Pages }}</p>
+    <hr style="margin: 1rem 0;">
+    <p><strong>所有文章的标题列表：</strong></p>
+    <ul>
+    {{ range .Pages }}
+        <li>“{{ .Title }}” (分类: {{ .Params.categories }})</li>
+    {{ else }}
+        <li><em>⚠️ 没有遍历到任何文章</em></li>
+    {{ end }}
+    </ul>
+</div>
+{{/* ========== 调试信息结束 ========== */}}
+
+<div style="margin-top: 5rem; padding: 2rem; background: rgba(255, 255, 255, 0.02); border-radius: 15px; border: 1px solid rgba(255, 255, 255, 0.1);">
+    <h1 style="color: #00d4ff; margin-bottom: 2rem; text-align: center;">{{ .Title }}</h1>
+    <div class="categories-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem;">
+        {{ range .Data.Terms.ByCount }}
+        <div class="category-card" style="background: rgba(255, 255, 255, 0.05); border-radius: 15px; padding: 1.5rem; border: 1px solid rgba(255, 255, 255, 0.1); text-align: center; transition: all 0.3s ease;">
+            <h3 style="color: #00d4ff; margin-bottom: 1rem;">{{ .Name }}</h3>
+            <p style="color: #888; margin-bottom: 1rem;">{{ .Count }} {{ if eq .Count 1 }}post{{ else }}posts{{ end }}</p>
+            <a href="{{ .Page.Permalink }}" class="btn btn-secondary">View Posts</a>
+        </div>
+        {{ end }}
+    </div>
+</div>
+{{ end }}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>美工 on LIA WORK</title>
+    <link>http://localhost:7418/categories/%E7%BE%8E%E5%B7%A5/</link>
+    <description>Recent content in 美工 on LIA WORK</description>
+    <generator>Hugo</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Thu, 25 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:7418/categories/%E7%BE%8E%E5%B7%A5/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>私人汉化了一下「魔法少女ダンデライオン」</title>
+      <link>http://localhost:7418/posts/honyaku-mhri/</link>
+      <pubDate>Thu, 25 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:7418/posts/honyaku-mhri/</guid>
+      <description>&lt;p&gt;其实汉化组一直不做只是一个引子，我更多的是想测试一下用AI辅助翻译+嵌字效率能达到什么水平。到底有没有更简单的途径解决我喜欢的作品一直因为没有汉化卖不出安利的痛苦……&lt;/p&gt;&#xA;&lt;p&gt;　&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://weibo.com/1915135003/Q5P7rt1XH&#34;&gt;看我做的翻译+嵌字点这里&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;　&lt;/p&gt;&#xA;&lt;p&gt;平均下来拉满的话一天也能够做一本（月刊志少女漫画基准），但并不会说因为引入了AI技术就减少辛苦。&lt;/p&gt;&#xA;&lt;p&gt;LOGO和一部分的嵌字还是很难用一条技术路径解决，如果跳跃多个技术路径的话中间这里的成本也花挺多，还不如：自己动手。&lt;/p&gt;&#xA;&lt;p&gt;首先是LOGO……我觉得AI对于难搞的御宅族还是有点……不要糊弄御宅族啊……！gemini老师……GPT老师……你完全不理解原作LOGO设计点在哪里啊！&lt;/p&gt;&#xA;&lt;p&gt;所以到头来想要保持原作的设计风格字体风格的话还得自己做……（面露难色）（illustrator启动）&lt;/p&gt;&#xA;&lt;p&gt;　　&lt;img src=&#34;http://localhost:7418/image/mhricnlogo.jpg&#34; alt=&#34;mahoraiLOGO&#34; style=&#34;width: 100%; display: block; margin: 0 auto;&#34;&gt;　　　&lt;img src=&#34;http://localhost:7418/image/MHRILOGO.jpg&#34; alt=&#34;mahoraiLOGO&#34; style=&#34;width: 100%; display: block; margin: 0 auto;&#34;&gt;　&lt;/p&gt;&#xA;&lt;p&gt;ふぅ…ようやく納得な結果になってる&lt;/p&gt;&#xA;&lt;p&gt;　&lt;/p&gt;&#xA;&lt;p&gt;然后虽然大部分的嵌字和修图AI都能帮我解决……70%左右，也比我自己修快了，快说谢谢lama。嵌字定位之类的倒是仍旧不是很准，大概和我自己做没啥太大区别吧，不过如果目的只是“能看”的话足够了。&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:7418/image/mhricnfont.jpg&#34; alt=&#34;mahorai嵌字&#34; style=&#34;width: 100%; display: block; margin: 0 auto;&#34;&gt;　&lt;/p&gt;&#xA;&lt;p&gt;只是像这种地方的嵌字还是强AI所难了（面露难色）（photoshop启动）&lt;/p&gt;&#xA;&lt;p&gt;相比之下，凡是在气泡内部的嵌字都还算可以……虽然肯定是有优化空间的（比如上图剩下的气泡内部分都是自动嵌字，但是右边的字符已经完全超出了安全范围），但我的目的只是“省事”“快”，而且我也不太希冀AI真的能做得跟我一样好！科技尿点还没来到……&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

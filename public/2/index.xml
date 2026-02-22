@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2s on LIA WORK</title>
+    <link>http://localhost:3459/2/</link>
+    <description>Recent content in 2s on LIA WORK</description>
+    <generator>Hugo</generator>
+    <language>zh-CN</language>
+    <atom:link href="http://localhost:3459/2/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>I am otaku</title>
+      <link>http://localhost:3459/2/iamotaku/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:3459/2/iamotaku/</guid>
+      <description>&lt;h1 id=&#34;私の日本語はアニメから学びました外人並み感&#34;&gt;私の日本語はアニメから学びました！（外人並み感）&lt;/h1&gt;&#xA;&lt;p&gt;这里我会说一些我非常私人兴趣爱好，也是我这些兴趣造就了我的工作能力。&lt;/p&gt;&#xA;&lt;p&gt;我非常喜欢动漫与游戏、这些“第九艺术”的文化几乎从我出生开始就伴随着我，从未间断。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

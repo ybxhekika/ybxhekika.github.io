@@ -1,0 +1,38 @@
+{{ $imagesParam := .Get "images" }}
+{{ $cols := .Get "cols" | default 3 }}
+{{ $gap := .Get "gap" | default "10px" }}
+{{ $imgWidth := .Get "imgWidth" | default "" }} <!-- 新增：自定义图片宽度 -->
+
+{{ if not $imagesParam }}
+    <p style="color:red;">错误：images 参数为空，请检查调用语法。</p>
+{{ else }}
+    {{ $images := split $imagesParam "," }}
+    {{ $width := "" }}
+    {{ if $imgWidth }}
+        {{ $width = $imgWidth }} <!-- 使用自定义宽度 -->
+    {{ else }}
+        {{ $width = printf "calc((100%% - (%d - 1) * %s) / %d)" $cols $gap $cols }}
+    {{ end }}
+
+
+    <div style="display: flex; flex-wrap: wrap; gap: {{ $gap }};">
+        {{ range $images }}
+            {{ $path := trim . " " }}
+            <div style="flex: 0 0 {{ $width }}; max-width: {{ $width }};">
+                <img src="{{ $path }}" style="width: 100%; height: auto; display: block; border-radius: 4px;">
+            </div>
+        {{ end }}
+
+<script>
+document.querySelectorAll('.gallery-img').forEach(img => {
+    if (img.src.endsWith('.gif')) {
+        img.addEventListener('load', function() {
+            // 对于单次循环的 GIF，监听结束事件并重新加载（不精确）
+            // 更简单的方法：定期重新加载（不推荐）
+        });
+    }
+});
+</script>
+
+    </div>
+{{ end }}

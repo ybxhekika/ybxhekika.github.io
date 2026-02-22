@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>个人作品 on LIA WORK</title>
+    <link>http://localhost:7418/tags/%E4%B8%AA%E4%BA%BA%E4%BD%9C%E5%93%81/</link>
+    <description>Recent content in 个人作品 on LIA WORK</description>
+    <generator>Hugo</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Wed, 08 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:7418/tags/%E4%B8%AA%E4%BA%BA%E4%BD%9C%E5%93%81/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>电子书翻译的尝试</title>
+      <link>http://localhost:7418/posts/ebook-kouhoku/</link>
+      <pubDate>Wed, 08 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:7418/posts/ebook-kouhoku/</guid>
+      <description>&lt;p&gt;说在前面：好久没有爽看儿童文学了，谢谢你勇岭熏老师。&lt;/p&gt;&#xA;&lt;p&gt;我小时候没有太多看日本作者的儿童文学的经历，所以也感谢出版了新装版的星海社，让我在这个年头遇到「少年名侦探虹北恭助」系列……&lt;/p&gt;&#xA;&lt;p&gt;勇岭熏老师有不少作品其实是有中文出版的，一部分的作品在国内的少儿图书馆也能看到……可惜，「少年名侦探虹北恭助」系列并不是……&lt;/p&gt;&#xA;&lt;p&gt;　&lt;/p&gt;&#xA;&lt;p&gt;太可恶了，这可是我恨不得自己在小时候坐在少儿图书馆的桌椅上看的作品啊。……这让我萌生了自己做汉化的心，至少想给看不懂日语的亲友们分享这份感动……&lt;/p&gt;&#xA;&lt;p&gt;翻译和修图这种工作难不倒我，于是我想着既然如此为什么我不学习一下电子书排版和封装呢？基于html的话我应该也能做到吧！&lt;/p&gt;&#xA;&lt;img src=&#34;http://localhost:7418/image/honhoku.jpg&#34; alt=&#34;epub封装&#34; style=&#34;width: 100%; display: block; margin: 0 auto;&#34;&gt;&#xA;&lt;p&gt;　&lt;/p&gt;&#xA;&lt;p&gt;……没想到其实真的比我想象中还要简单的「很简单」，epub封装这种事甚至不需要html的知识我想也可以做到。&lt;/p&gt;&#xA;&lt;p&gt;　&#xA;&lt;img src=&#34;http://localhost:7418/image/honkoku2.jpg&#34; alt=&#34;虹北嵌字&#34; style=&#34;width: 100%; display: block; margin: 0 auto;&#34;&gt;&#xA;&lt;img src=&#34;http://localhost:7418/image/honkoku3.jpg&#34; alt=&#34;虹北翻译&#34; style=&#34;width: 100%; display: block; margin: 0 auto;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;勇岭熏老师的文字也让人觉得翻译起来非常愉快，看的时候我就有这种感觉了，果然是儿童文学作家，有种文字自己灌进脑袋的爽感。&lt;/p&gt;&#xA;&lt;p&gt;翻译的时候我也想着一定要尽量保留这种感觉……&lt;/p&gt;&#xA;&lt;p&gt;嵌字也尽量做了和原本装帧风格非常类似的字体，御宅族永远注重这种地方……！&lt;/p&gt;&#xA;&lt;p&gt;好的作品感觉做汉化的时候也会让我很快乐，虽然说了很多次还是想说：谢谢你勇岭熏老师。&lt;/p&gt;&#xA;&lt;p&gt;　&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;（此汉化版本不对外开放，不过如果看到这个文章的您想要这份epub的话，可以凭借勇岭熏老师任意书籍的购买记录联络我跟我交换！）&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>私人汉化了一下「魔法少女ダンデライオン」</title>
+      <link>http://localhost:7418/posts/honyaku-mhri/</link>
+      <pubDate>Thu, 25 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:7418/posts/honyaku-mhri/</guid>
+      <description>&lt;p&gt;其实汉化组一直不做只是一个引子，我更多的是想测试一下用AI辅助翻译+嵌字效率能达到什么水平。到底有没有更简单的途径解决我喜欢的作品一直因为没有汉化卖不出安利的痛苦……&lt;/p&gt;&#xA;&lt;p&gt;　&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://weibo.com/1915135003/Q5P7rt1XH&#34;&gt;看我做的翻译+嵌字点这里&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;　&lt;/p&gt;&#xA;&lt;p&gt;平均下来拉满的话一天也能够做一本（月刊志少女漫画基准），但并不会说因为引入了AI技术就减少辛苦。&lt;/p&gt;&#xA;&lt;p&gt;LOGO和一部分的嵌字还是很难用一条技术路径解决，如果跳跃多个技术路径的话中间这里的成本也花挺多，还不如：自己动手。&lt;/p&gt;&#xA;&lt;p&gt;首先是LOGO……我觉得AI对于难搞的御宅族还是有点……不要糊弄御宅族啊……！gemini老师……GPT老师……你完全不理解原作LOGO设计点在哪里啊！&lt;/p&gt;&#xA;&lt;p&gt;所以到头来想要保持原作的设计风格字体风格的话还得自己做……（面露难色）（illustrator启动）&lt;/p&gt;&#xA;&lt;p&gt;　　&lt;img src=&#34;http://localhost:7418/image/mhricnlogo.jpg&#34; alt=&#34;mahoraiLOGO&#34; style=&#34;width: 100%; display: block; margin: 0 auto;&#34;&gt;　　　&lt;img src=&#34;http://localhost:7418/image/MHRILOGO.jpg&#34; alt=&#34;mahoraiLOGO&#34; style=&#34;width: 100%; display: block; margin: 0 auto;&#34;&gt;　&lt;/p&gt;&#xA;&lt;p&gt;ふぅ…ようやく納得な結果になってる&lt;/p&gt;&#xA;&lt;p&gt;　&lt;/p&gt;&#xA;&lt;p&gt;然后虽然大部分的嵌字和修图AI都能帮我解决……70%左右，也比我自己修快了，快说谢谢lama。嵌字定位之类的倒是仍旧不是很准，大概和我自己做没啥太大区别吧，不过如果目的只是“能看”的话足够了。&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:7418/image/mhricnfont.jpg&#34; alt=&#34;mahorai嵌字&#34; style=&#34;width: 100%; display: block; margin: 0 auto;&#34;&gt;　&lt;/p&gt;&#xA;&lt;p&gt;只是像这种地方的嵌字还是强AI所难了（面露难色）（photoshop启动）&lt;/p&gt;&#xA;&lt;p&gt;相比之下，凡是在气泡内部的嵌字都还算可以……虽然肯定是有优化空间的（比如上图剩下的气泡内部分都是自动嵌字，但是右边的字符已经完全超出了安全范围），但我的目的只是“省事”“快”，而且我也不太希冀AI真的能做得跟我一样好！科技尿点还没来到……&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>《我的少年》单行本纪念CM</title>
+      <link>http://localhost:7418/posts/watashinoshhounen/</link>
+      <pubDate>Thu, 30 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:7418/posts/watashinoshhounen/</guid>
+      <description>&lt;p&gt;2016年为了纪念「私の少年」（作者：高野ひと深 / 当时出版社：双葉社）单行本第一卷发售，用第一话的内容做的一个仿TVCM风格的视频&lt;/p&gt;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;div style=&#34;position: relative; width: 100%; padding-bottom: 56.25%; margin: 1rem 0;&#34;&gt;&#xD;&#xA;    &lt;iframe &#xD;&#xA;        src=&#34;//www.bilibili.com/blackboard/html5mobileplayer.html?bvid=BV1Ms411v7AE&amp;page=1&amp;high_quality=1&amp;danmaku=0&amp;autoplay=0&#34;&#xD;&#xA;        style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none; border-radius: 8px;&#34;&#xD;&#xA;        scrolling=&#34;no&#34;&#xD;&#xA;        frameborder=&#34;no&#34;&#xD;&#xA;        allowfullscreen=&#34;true&#34;&#xD;&#xA;        sandbox=&#34;allow-top-navigation allow-same-origin allow-forms allow-scripts allow-popups allow-presentation&#34;&#xD;&#xA;    &gt;&#xD;&#xA;    &lt;/iframe&gt;&#xD;&#xA;&lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>idol-showa/reiwa</title>
+      <link>http://localhost:7418/posts/idol-showareiwa/</link>
+      <pubDate>Thu, 30 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:7418/posts/idol-showareiwa/</guid>
+      <description>&lt;p&gt;2025年9月的时候为了公司一个项目画的稿，结果没画完色稿项目就流了……于是一直没有完稿……&lt;/p&gt;&#xA;&lt;p&gt;但是我个人还是很喜欢这个稿件，花了很多心机，包括这个“昭和偶像x令和偶像”的主题也是我提出来的。&lt;/p&gt;&#xA;&lt;p&gt;　　&lt;img src=&#34;http://localhost:7418/image/idolshouwareiwa.jpg&#34; alt=&#34;偶像稿件&#34; style=&#34;width: 100%; display: block; margin: 0 auto;&#34;&gt;　&lt;/p&gt;&#xA;&lt;p&gt;左边作为昭和偶像的代表参考了早期偶像系女童动画和超时空要塞等对于昭和歌姬的概念（画风也是仿美树本晴彦的），右边则是参考了类似2015年女童动画偶像潮和vtuber流行的画风来设计的……总之就是真的花了很多心机查了很多资料，糅合了很多我喜欢的东西的一张图……&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>为自己喜欢的JPOP歌曲做的5个小视频</title>
+      <link>http://localhost:7418/posts/video/</link>
+      <pubDate>Fri, 03 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:7418/posts/video/</guid>
+      <description>&lt;p&gt;Dance with Misery - FIVE NEW OLD (2018)&lt;/p&gt;&#xA;&#xD;&#xA;&#xD;&#xA; &#xD;&#xA;&#xD;&#xA;&lt;div class=&#34;video-click-wrapper&#34; style=&#34;position: relative; width: 100%; margin: 0 auto; cursor: pointer;&#34;&gt;&#xD;&#xA;    &lt;img src=&#34;http://localhost:7418/image/DWM.png&#34; alt=&#34;视频封面&#34; style=&#34;width: 100%; display: block; border-radius: 8px;&#34;&gt;&#xD;&#xA;    &lt;div style=&#34;position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); background: rgba(0,0,0,0.7); color: white; width: 60px; height: 60px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 24px; border: 2px solid white;&#34;&gt;▶&lt;/div&gt;&#xD;&#xA;    &lt;video controls style=&#34;display: none; width: 100%; border-radius: 8px;&#34; preload=&#34;none&#34;&gt;&lt;/video&gt;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&#xD;&#xA;&lt;script&gt;&#xD;&#xA;(function() {&#xD;&#xA;    const wrappers = document.querySelectorAll(&#39;.video-click-wrapper&#39;);&#xD;&#xA;    wrappers.forEach(wrapper =&gt; {&#xD;&#xA;        wrapper.addEventListener(&#39;click&#39;, function(e) {&#xD;&#xA;            const video = this.querySelector(&#39;video&#39;);&#xD;&#xA;            const img = this.querySelector(&#39;img&#39;);&#xD;&#xA;            const playBtn = this.querySelector(&#39;div&#39;);&#xD;&#xA;            if (video &amp;&amp; !video.src) {&#xD;&#xA;                video.src = &#39;https:\/\/liayuan-1312846655.cos.ap-guangzhou.myqcloud.com\/dance%20with%20misery.mp4&#39;;&#xD;&#xA;                video.load();&#xD;&#xA;                video.style.display = &#39;block&#39;;&#xD;&#xA;                img.style.display = &#39;none&#39;;&#xD;&#xA;                if (playBtn) playBtn.style.display = &#39;none&#39;;&#xD;&#xA;                video.play().catch(() =&gt; {});&#xD;&#xA;            }&#xD;&#xA;        });&#xD;&#xA;    });&#xD;&#xA;})();&#xD;&#xA;&lt;/script&gt;&#xA;&lt;p&gt;　&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

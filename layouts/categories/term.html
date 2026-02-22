@@ -1,0 +1,55 @@
+{{ define "main" }}
+<div style="margin-top: 2rem; padding: 2rem; max-width: 1200px; margin-left: auto; margin-right: auto;">
+    
+    <!--- 页面标题 --->
+    <h1 style="color: #00d4ff; font-size: 2.5rem; margin-bottom: 0.5rem; text-align: center;">
+        {{ i18n "category" }} {{ .Title }}
+    </h1>
+    <p style="text-align: center; opacity: 0.8; margin-bottom: 3rem;">
+        共 {{ len .Pages }} 篇文章
+    </p>
+
+
+    <!--- 文章列表 --->
+    <div class="posts-list" style="display: flex; flex-direction: column; gap: 2rem;">
+        {{ range .Pages }}
+        <article style="background: rgba(255, 255, 255, 0.05); padding: 2rem; border-radius: 15px; border: 1px solid rgba(255, 255, 255, 0.1);">
+            
+            <!--- 文章标题 --->
+            <h2 style="color: #fff; margin-top: 0; margin-bottom: 0.5rem;">
+                <a href="{{ .RelPermalink }}" style="color: inherit; text-decoration: none;">{{ .Title }}</a>
+            </h2>
+            
+            <!--- 文章元信息（日期、分类、标签）--->
+            <div style="color: #aaa; font-size: 0.9rem; margin-bottom: 1rem;">
+                <time>{{ .Date.Format "2006年1月2日" }}</time>
+                {{ with .Params.categories }}
+                 • 分类：{{ range . }}
+                    <a href="{{ "/categories/" | relLangURL }}{{ . | urlize }}" style="color: #00d4ff; margin-right: 0.5em;">{{ . }}</a>
+                 {{ end }}
+                {{ end }}
+                {{ with .Params.tags }}
+                 • 标签：{{ range . }}
+                    <span style="background: rgba(0, 212, 255, 0.2); padding: 0.2em 0.6em; border-radius: 1em; font-size: 0.85em; margin-right: 0.5em;">{{ . }}</span>
+                 {{ end }}
+                {{ end }}
+            </div>
+            
+            <!--- 文章摘要 --->
+            <div style="color: #ccc; line-height: 1.6; margin-bottom: 1.5rem;">
+                {{ .Summary }}
+                {{ if .Truncated }}
+                <!--- 如果文章内容被截断，显示“阅读更多”链接 --->
+                <a href="{{ .RelPermalink }}" style="color: #00d4ff; margin-left: 0.5em;">{{ i18n "read_more" }}...</a>
+                {{ end }}
+            </div>
+        </article>
+        {{ else }}
+        <!--- 如果没有文章时的显示 --->
+        <div style="text-align: center; padding: 4rem; color: #888;">
+            <p>此分类下暂时没有文章。</p>
+        </div>
+        {{ end }}
+    </div>
+</div>
+{{ end }}
