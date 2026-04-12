@@ -115,31 +115,31 @@
     &lt;div class=&#34;carousel-inner&#34; style=&#34;display: flex; transition: transform 0.3s ease; will-change: transform;&#34;&gt;
         
         &lt;div class=&#34;carousel-slide&#34; style=&#34;min-width: 100%;&#34;&gt;
-            &lt;img src=&#34;http://localhost:1313/image/gtk/gtk1.jpg&#34; style=&#34;width: 100%; display: block; user-select: none; -webkit-user-drag: none;&#34;&gt;
+            &lt;img src=&#34;http://localhost:1313/image/gtk/GTK1.jpg&#34; style=&#34;width: 100%; display: block; user-select: none; -webkit-user-drag: none;&#34;&gt;
         &lt;/div&gt;
         
         &lt;div class=&#34;carousel-slide&#34; style=&#34;min-width: 100%;&#34;&gt;
-            &lt;img src=&#34;http://localhost:1313/image/gtk/gtk2.jpg&#34; style=&#34;width: 100%; display: block; user-select: none; -webkit-user-drag: none;&#34;&gt;
+            &lt;img src=&#34;http://localhost:1313/image/gtk/GTK2.jpg&#34; style=&#34;width: 100%; display: block; user-select: none; -webkit-user-drag: none;&#34;&gt;
         &lt;/div&gt;
         
         &lt;div class=&#34;carousel-slide&#34; style=&#34;min-width: 100%;&#34;&gt;
-            &lt;img src=&#34;http://localhost:1313/image/gtk/gtk3.jpg&#34; style=&#34;width: 100%; display: block; user-select: none; -webkit-user-drag: none;&#34;&gt;
+            &lt;img src=&#34;http://localhost:1313/image/gtk/GTK3.jpg&#34; style=&#34;width: 100%; display: block; user-select: none; -webkit-user-drag: none;&#34;&gt;
         &lt;/div&gt;
         
         &lt;div class=&#34;carousel-slide&#34; style=&#34;min-width: 100%;&#34;&gt;
-            &lt;img src=&#34;http://localhost:1313/image/gtk/gtk4.jpg&#34; style=&#34;width: 100%; display: block; user-select: none; -webkit-user-drag: none;&#34;&gt;
+            &lt;img src=&#34;http://localhost:1313/image/gtk/GTK4.jpg&#34; style=&#34;width: 100%; display: block; user-select: none; -webkit-user-drag: none;&#34;&gt;
         &lt;/div&gt;
         
         &lt;div class=&#34;carousel-slide&#34; style=&#34;min-width: 100%;&#34;&gt;
-            &lt;img src=&#34;http://localhost:1313/image/gtk/gtk5.jpg&#34; style=&#34;width: 100%; display: block; user-select: none; -webkit-user-drag: none;&#34;&gt;
+            &lt;img src=&#34;http://localhost:1313/image/gtk/GTK5.jpg&#34; style=&#34;width: 100%; display: block; user-select: none; -webkit-user-drag: none;&#34;&gt;
         &lt;/div&gt;
         
         &lt;div class=&#34;carousel-slide&#34; style=&#34;min-width: 100%;&#34;&gt;
-            &lt;img src=&#34;http://localhost:1313/image/gtk/gtk6.jpg&#34; style=&#34;width: 100%; display: block; user-select: none; -webkit-user-drag: none;&#34;&gt;
+            &lt;img src=&#34;http://localhost:1313/image/gtk/GTK6.jpg&#34; style=&#34;width: 100%; display: block; user-select: none; -webkit-user-drag: none;&#34;&gt;
         &lt;/div&gt;
         
         &lt;div class=&#34;carousel-slide&#34; style=&#34;min-width: 100%;&#34;&gt;
-            &lt;img src=&#34;http://localhost:1313/image/gtk/gtk7.jpg&#34; style=&#34;width: 100%; display: block; user-select: none; -webkit-user-drag: none;&#34;&gt;
+            &lt;img src=&#34;http://localhost:1313/image/gtk/GTK7.jpg&#34; style=&#34;width: 100%; display: block; user-select: none; -webkit-user-drag: none;&#34;&gt;
         &lt;/div&gt;
         
     &lt;/div&gt;
