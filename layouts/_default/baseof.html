@@ -8,6 +8,8 @@
     {{ if and (hugo.IsProduction) (.Site.Params.googleAnalytics) }}
     {{ partial "analytics.html" . }}
     {{ end }}
+    <!-- 添加轮播 CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 </head>
 <body>
     <div class="particles" id="particles"></div>
@@ -16,5 +18,7 @@
         {{ block "main" . }}{{ end }}
     </main>
     {{ partial "footer.html" . }}
+    <!-- 添加轮播 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 </body>
 </html>

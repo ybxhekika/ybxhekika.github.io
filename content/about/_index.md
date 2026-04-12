@@ -3,7 +3,7 @@ title: "About Me"
 description: "Full-stack developer, digital nomad, and tech enthusiast"
 ---
 
-#  关于我
+# 关于我
 
 　
 
@@ -27,7 +27,7 @@ description: "Full-stack developer, digital nomad, and tech enthusiast"
 
 　
 
-于是，我做了这个网站来展示自己的学习经历与成就
+我做了这个网站来展示自己的学习经历与成就
 
 感谢您的访问
 
@@ -35,9 +35,9 @@ description: "Full-stack developer, digital nomad, and tech enthusiast"
 
 
 
-欢迎您在网站上逛逛，更详细了解我参与过的项目与作品。　
+**欢迎您在网站上逛逛，更详细了解我参与过的项目与作品。**
 
-如果您对我有兴趣，请随时通过本页下方的联系方式随时与我沟通！
+如果您对我有兴趣，欢迎通过本页下方的联系方式随时与我沟通！
 
 　
 
@@ -119,6 +119,4 @@ AI生图/文/视频/音乐
 
 　
 
-**如果你想看更多关于我个人的兴趣爱好相关的介绍：[点这里进入二次元世界(・∀・)]({{< ref "about2/Iamotaku.md" >}})**
-
-
+如果你想看更多关于我个人的兴趣爱好相关的介绍：[点这里进入二次元世界(・∀・)]({{< ref "about2/Iamotaku.md" >}})

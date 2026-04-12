@@ -1,0 +1,31 @@
+{{ $images := split (.Get "images") "," }}
+<div class="swiper mySwiper" style="width: 100%; max-width: 800px; margin: 0 auto;">
+    <div class="swiper-wrapper">
+        {{ range $images }}
+        <div class="swiper-slide">
+            <img src="{{ trim . " " }}" style="width: 100%; display: block;">
+        </div>
+        {{ end }}
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
+</div>
+
+<script>
+var swiper = new Swiper('.mySwiper', {
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    },
+    pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+    },
+    loop: true,
+    autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+    },
+});
+</script>

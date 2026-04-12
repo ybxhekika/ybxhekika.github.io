@@ -11,7 +11,7 @@
         </div>
         
         <div class="blog-posts">
-            {{ $paginator := .Paginate .Pages 6 }}
+            {{ $paginator := .Paginate .Pages 9 }}
             {{ range $paginator.Pages }}
             <article class="blog-post">
                 <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>

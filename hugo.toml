@@ -134,29 +134,29 @@ theme = "nomad-tech"
     city = "视觉设计总监"
     country = "广州市星火传媒有限公司"
     flag = ""
-    period = "2021.02 - 2026.01"
+    period = "2023 - 至今"
     description =  """
 ・汽车、电动车的贴膜图案设计，漫展出展搭建物料的设计与落地
 ・商场活动及展会活动的执行统筹，视觉平面设计，周边商品设计
 """
     highlights = ["平面设计", "视频设计", "项目管理" , "展台搭建", "周边设计"]
-    more_url = "/timeline/more/1/"   # 👈 新增：详情页链接
+    more_url = "/timeline/more/3/"   # 👈 新增：详情页链接
 
  
   [[params.travels]]
     city = "平面设计师"
     country = "广州市潮库信息科技有限公司"
     flag = ""
-    period = "2018.09 - 2021.01"
+    period = "2019 - 2022"
     description = "・潮牌、运动鞋、运动品牌产品以推广目的的短片摄影，广告平面设计"
     highlights = ["平面设计", "视频特效", "影像调色", "分镜",  "翻译" , "项目管理"]
-    more_url = "/timeline/more/1/"   # 👈 新增：详情页链接
+    more_url = "/timeline/more/2/"   # 👈 新增：详情页链接
 
   [[params.travels]]
     city = "制作管理"
     country = "广州大火鸟文化传媒有限公司"
     flag = ""
-    period = "2017.01 - 2018.08"
+    period = "2017 - 2018"
     description = "・动画制作团队内部统筹管理，辅助不同工作岗位及公司内部外部团队之间的协调沟通"
     highlights = ["项目管理", "业务对接"]
     more_url = "/timeline/more/1/"   # 👈 新增：详情页链接

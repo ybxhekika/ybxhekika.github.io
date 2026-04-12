@@ -1,0 +1,75 @@
+{{ $images := split (.Get "images") "," }}
+<div class="simple-carousel" style="position: relative; max-width: 800px; margin: 0 auto; overflow: hidden;">
+    <div class="carousel-inner" style="display: flex; transition: transform 0.3s ease; will-change: transform;">
+        {{ range $images }}
+        <div class="carousel-slide" style="min-width: 100%;">
+            <img src="{{ trim . " " }}" style="width: 100%; display: block; user-select: none; -webkit-user-drag: none;">
+        </div>
+        {{ end }}
+    </div>
+    <button class="carousel-prev" style="position: absolute; top: 50%; left: 10px; transform: translateY(-50%); background: rgba(0,0,0,0.5); color: white; border: none; cursor: pointer; padding: 10px 14px; border-radius: 50%; font-size: 18px; z-index: 10;">◀</button>
+    <button class="carousel-next" style="position: absolute; top: 50%; right: 10px; transform: translateY(-50%); background: rgba(0,0,0,0.5); color: white; border: none; cursor: pointer; padding: 10px 14px; border-radius: 50%; font-size: 18px; z-index: 10;">▶</button>
+</div>
+
+<script>
+(function() {
+    const carousels = document.querySelectorAll('.simple-carousel');
+    carousels.forEach(carousel => {
+        const inner = carousel.querySelector('.carousel-inner');
+        const slides = carousel.querySelectorAll('.carousel-slide');
+        const prevBtn = carousel.querySelector('.carousel-prev');
+        const nextBtn = carousel.querySelector('.carousel-next');
+        let currentIndex = 0;
+        const totalSlides = slides.length;
+
+        // 触摸滑动相关变量
+        let touchStartX = 0;
+        let touchEndX = 0;
+        let isSwiping = false;
+
+        function updateCarousel() {
+            inner.style.transform = `translateX(-${currentIndex * 100}%)`;
+        }
+
+        // 按钮事件
+        prevBtn.addEventListener('click', () => {
+            currentIndex = (currentIndex - 1 + totalSlides) % totalSlides;
+            updateCarousel();
+        });
+
+        nextBtn.addEventListener('click', () => {
+            currentIndex = (currentIndex + 1) % totalSlides;
+            updateCarousel();
+        });
+
+        // 触摸事件
+        carousel.addEventListener('touchstart', (e) => {
+            touchStartX = e.touches[0].clientX;
+            isSwiping = true;
+        }, { passive: true });
+
+        carousel.addEventListener('touchmove', (e) => {
+            if (!isSwiping) return;
+            // 可以在这里添加滑动时的视觉反馈（可选）
+        }, { passive: true });
+
+        carousel.addEventListener('touchend', (e) => {
+            if (!isSwiping) return;
+            touchEndX = e.changedTouches[0].clientX;
+            const deltaX = touchEndX - touchStartX;
+            // 滑动超过 50 像素就切换
+            if (Math.abs(deltaX) > 50) {
+                if (deltaX > 0) {
+                    // 向右滑动 -> 上一张
+                    currentIndex = (currentIndex - 1 + totalSlides) % totalSlides;
+                } else {
+                    // 向左滑动 -> 下一张
+                    currentIndex = (currentIndex + 1) % totalSlides;
+                }
+                updateCarousel();
+            }
+            isSwiping = false;
+        });
+    });
+})();
+</script>
