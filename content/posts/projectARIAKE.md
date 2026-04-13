@@ -1,6 +1,6 @@
 ---
 title: "【补档】3D综合项目project ARIAKE"
-date: 2025-01-03
+date: 2026-01-03
 categories: ["3D" , "企划"]
 tags: ["个人作品"]
 
@@ -10,7 +10,7 @@ tags: ["个人作品"]
 
 
 
-<img src="https://i.meee.com.tw/DWQWMMh.gif"  width="100%">
+<img src="https://liayuan-1312846655.cos.ap-guangzhou.myqcloud.com/ARIAKE.gif"  width="100%">
 
  　
 
@@ -101,11 +101,11 @@ tags: ["个人作品"]
 <details>
   <summary >点击展开查看没有很长的动捕调试过程</summary>
  </p>
-<img src="https://i.meee.com.tw/om4w9hv.gif"  width="70%">
+<img src="https://liayuan-1312846655.cos.ap-guangzhou.myqcloud.com/ARAKfacetest.gif"  width="70%">
  </p>
 表情捕捉的调试……………………
  </p>
-<img src="https://i.meee.com.tw/MTqvgmr.gif"  width="100%">
+<img src="https://liayuan-1312846655.cos.ap-guangzhou.myqcloud.com/ARAKhandtest.gif"  width="100%">
 光照场景的动作调试……………………
 
 </p>
@@ -136,7 +136,7 @@ tags: ["个人作品"]
 ### 然后就是成果time！
 
 </p>
-<img src="https://i.meee.com.tw/WHpUvgH.gif"  width="50%">
+<img src="https://liayuan-1312846655.cos.ap-guangzhou.myqcloud.com/ARAKimage.gif"  width="50%">
 </p>
 喜欢的二次元美少女！炼成！！！！！！！！！！！！！！
 </p>
@@ -149,6 +149,3 @@ tags: ["个人作品"]
 </p>
 
 动捕的效果其实我个人也是很满意！总之完美落幕！！（拍手）
-
-
-

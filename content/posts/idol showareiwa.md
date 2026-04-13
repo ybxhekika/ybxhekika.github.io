@@ -9,7 +9,7 @@ tags: ["个人作品", "商业作品"]
 
 但是我个人还是很喜欢这个稿件，花了很多心机，包括这个“昭和偶像x令和偶像”的主题也是我提出来的。
 
-　　<img src="/image/idolshouwareiwa.jpg" alt="偶像稿件" style="width: 100%; display: block; margin: 0 auto;">　
+　　<img src="https://liayuan-1312846655.cos.ap-guangzhou.myqcloud.com/idolshouwareiwa.jpg" alt="偶像稿件" style="width: 100%; display: block; margin: 0 auto;">　
 
 
 
