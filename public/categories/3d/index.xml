@@ -2,20 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>3D on LIA WORK</title>
-    <link>http://localhost:1313/categories/3d/</link>
+    <link>http://localhost:14860/categories/3d/</link>
     <description>Recent content in 3D on LIA WORK</description>
     <generator>Hugo</generator>
     <language>zh-CN</language>
     <managingEditor>me@m03315.top (Your Name)</managingEditor>
     <webMaster>me@m03315.top (Your Name)</webMaster>
-    <lastBuildDate>Fri, 03 Jan 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/3d/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 30 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:14860/categories/3d/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>一些赛博谷子渲染</title>
+      <link>http://localhost:14860/posts/3dgoods/</link>
+      <pubDate>Sat, 30 May 2026 00:00:00 +0000</pubDate><author>me@m03315.top (Your Name)</author>
+      <guid>http://localhost:14860/posts/3dgoods/</guid>
+      <description>&lt;p&gt;有段时间没更新网站了，最近其实在做赛博谷美。&lt;/p&gt;&#xA;&lt;p&gt;　　&lt;img src=&#34;http://localhost:14860/image/milkysubwaybaji.jpg&#34; alt=&#34;银河特急吧唧布景&#34; style=&#34;width: 100%; display: block; margin: 0 auto;&#34;&gt;　　&lt;/p&gt;&#xA;&lt;p&gt;我最近沉迷上了银河特急。&#xA;然而机械朋克系的作品要做谷美的话，做这样的打灯和场景，估计要花上比谷子十几倍的价格去布景。&#xA;其实我也有想过租影棚，但是算了一下成本还是有点这价格足够让我再去香港看一次影线版了……&#xA;所以最后我打开了blender&lt;/p&gt;&#xA;&lt;p&gt;　　&lt;img src=&#34;http://localhost:14860/image/MSBJ.jpg&#34; alt=&#34;银河特急吧唧渲染&#34; style=&#34;width: 100%; display: block; margin: 0 auto;&#34;&gt;　　　&lt;/p&gt;&#xA;&lt;p&gt;对的兄弟对的，我要的就是这个效果。&#xA;然后我玩上瘾了，又做了镭射票和流麻。&lt;/p&gt;</description>
+    </item>
     <item>
       <title>【补档】3D综合项目project ARIAKE</title>
-      <link>http://localhost:1313/posts/projectariake/</link>
-      <pubDate>Fri, 03 Jan 2025 00:00:00 +0000</pubDate><author>me@m03315.top (Your Name)</author>
-      <guid>http://localhost:1313/posts/projectariake/</guid>
-      <description>&lt;img src=&#34;https://i.meee.com.tw/DWQWMMh.gif&#34;  width=&#34;100%&#34;&gt;&#xA;&lt;p&gt;　&lt;/p&gt;&#xA;&lt;p&gt;2022年的时候，挑战了一下从人设到3D到视频合成全部一通自己做的一个实验项目。&lt;/p&gt;&#xA;&lt;p&gt;所以纯粹的！我想怎么来就怎么来！我要炼成我喜欢的美少女！！！&lt;/p&gt;&#xA;&lt;p&gt;～所以这篇大概只是炼成记录一样的东西～&#xA;不会讲太多制作理念，理念就是：我喜欢&#xA;　&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;　&lt;/p&gt;&#xA;&lt;p&gt;总之请大家先看成稿吧！有做到非常类似动画涂质感的3D效果我个人很满意嗷！( ･´ｰ･｀)どや&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/image/tachie001.jpg&#34; alt=&#34;ariake立绘&#34; style=&#34;width: 100%; display: block; margin: 0 auto;&#34;&gt;　&lt;/p&gt;</description>
+      <link>http://localhost:14860/posts/projectariake/</link>
+      <pubDate>Sat, 03 Jan 2026 00:00:00 +0000</pubDate><author>me@m03315.top (Your Name)</author>
+      <guid>http://localhost:14860/posts/projectariake/</guid>
+      <description>&lt;img src=&#34;https://liayuan-1312846655.cos.ap-guangzhou.myqcloud.com/ARIAKE.gif&#34;  width=&#34;100%&#34;&gt;&#xA;&lt;p&gt;　&lt;/p&gt;&#xA;&lt;p&gt;2022年的时候，挑战了一下从人设到3D到视频合成全部一通自己做的一个实验项目。&lt;/p&gt;&#xA;&lt;p&gt;所以纯粹的！我想怎么来就怎么来！我要炼成我喜欢的美少女！！！&lt;/p&gt;&#xA;&lt;p&gt;～所以这篇大概只是炼成记录一样的东西～&#xA;不会讲太多制作理念，理念就是：我喜欢&#xA;　&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;　&lt;/p&gt;&#xA;&lt;p&gt;总之请大家先看成稿吧！有做到非常类似动画涂质感的3D效果我个人很满意嗷！( ･´ｰ･｀)どや&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:14860/image/tachie001.jpg&#34; alt=&#34;ariake立绘&#34; style=&#34;width: 100%; display: block; margin: 0 auto;&#34;&gt;　&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

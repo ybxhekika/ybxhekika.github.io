@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>IT on LIA WORK</title>
-    <link>http://localhost:1313/categories/it/</link>
+    <link>http://localhost:14860/categories/it/</link>
     <description>Recent content in IT on LIA WORK</description>
     <generator>Hugo</generator>
     <language>zh-CN</language>
     <managingEditor>me@m03315.top (Your Name)</managingEditor>
     <webMaster>me@m03315.top (Your Name)</webMaster>
     <lastBuildDate>Wed, 08 Oct 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/it/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:14860/categories/it/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>电子书翻译的尝试</title>
-      <link>http://localhost:1313/posts/ebook-kouhoku/</link>
+      <link>http://localhost:14860/posts/ebook-kouhoku/</link>
       <pubDate>Wed, 08 Oct 2025 00:00:00 +0000</pubDate><author>me@m03315.top (Your Name)</author>
-      <guid>http://localhost:1313/posts/ebook-kouhoku/</guid>
-      <description>&lt;p&gt;说在前面：好久没有爽看儿童文学了，谢谢你勇岭熏老师。&lt;/p&gt;&#xA;&lt;p&gt;我小时候没有太多看日本作者的儿童文学的经历，所以也感谢出版了新装版的星海社，让我在这个年头遇到「少年名侦探虹北恭助」系列……&lt;/p&gt;&#xA;&lt;p&gt;勇岭熏老师有不少作品其实是有中文出版的，一部分的作品在国内的少儿图书馆也能看到……可惜，「少年名侦探虹北恭助」系列并不是……&lt;/p&gt;&#xA;&lt;p&gt;　&lt;/p&gt;&#xA;&lt;p&gt;太可恶了，这可是我恨不得自己在小时候坐在少儿图书馆的桌椅上看的作品啊。……这让我萌生了自己做汉化的心，至少想给看不懂日语的亲友们分享这份感动……&lt;/p&gt;&#xA;&lt;img src=&#34;http://localhost:1313/image/honhoku.jpg&#34; alt=&#34;epub封装&#34; style=&#34;width: 100%; display: block; margin: 0 auto;&#34;&gt;&#xA;&lt;p&gt;　&lt;/p&gt;&#xA;&lt;p&gt;其实只要有ID和一点点html基础的话封装电子书还是蛮简单的！（当然修图和翻译这些最基本的就当然基本自己做了……）&lt;/p&gt;&#xA;&lt;p&gt;下载：&lt;a href=&#34;https://liayuan-1312846655.cos.ap-guangzhou.myqcloud.com/%E3%80%90%E8%AF%95%E9%98%85%E7%89%88%E3%80%91%E8%99%B9%E5%8C%97VOL.1-%E8%AF%91%E8%80%85%EF%BC%9ALIAYUAN.epub&#34;&gt;请点这里&lt;/a&gt;&#xA;　&lt;/p&gt;</description>
+      <guid>http://localhost:14860/posts/ebook-kouhoku/</guid>
+      <description>&lt;p&gt;说在前面：好久没有爽看儿童文学了，谢谢你勇岭熏老师。&lt;/p&gt;&#xA;&lt;p&gt;我小时候没有太多看日本作者的儿童文学的经历，所以也感谢出版了新装版的星海社，让我在这个年头遇到「少年名侦探虹北恭助」系列……&lt;/p&gt;&#xA;&lt;p&gt;勇岭熏老师有不少作品其实是有中文出版的，一部分的作品在国内的少儿图书馆也能看到……可惜，「少年名侦探虹北恭助」系列并不是……&lt;/p&gt;&#xA;&lt;p&gt;　&lt;/p&gt;&#xA;&lt;p&gt;太可恶了，这可是我恨不得自己在小时候坐在少儿图书馆的桌椅上看的作品啊。……这让我萌生了自己做汉化的心，至少想给看不懂日语的亲友们分享这份感动……&lt;/p&gt;&#xA;&lt;img src=&#34;http://localhost:14860/image/honhoku.jpg&#34; alt=&#34;epub封装&#34; style=&#34;width: 100%; display: block; margin: 0 auto;&#34;&gt;&#xA;&lt;p&gt;　&lt;/p&gt;&#xA;&lt;p&gt;其实只要有ID和一点点html基础的话封装电子书还是蛮简单的！（当然修图和翻译这些最基本的就当然基本自己做了……）&lt;/p&gt;&#xA;&lt;p&gt;下载：&lt;a href=&#34;https://liayuan-1312846655.cos.ap-guangzhou.myqcloud.com/%E3%80%90%E8%AF%95%E9%98%85%E7%89%88%E3%80%91%E8%99%B9%E5%8C%97VOL.1-%E8%AF%91%E8%80%85%EF%BC%9ALIAYUAN.epub&#34;&gt;请点这里&lt;/a&gt;&#xA;　&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

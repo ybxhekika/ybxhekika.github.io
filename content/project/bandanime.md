@@ -14,12 +14,20 @@
 
 **项目概述：** 负责音乐番同人展会“BAND ANIME ONLY”的全案视觉与周边开发。在有限的预算与筹备期内，一人横跨**平面视觉、实体周边研发、线下执行**三大模块。项目不仅在二次元社群内获得高口碑，更通过精准的受众洞察，实现了周边产品的高转化与零落地失误。
 
-　
 
+</p>
+
+</p>
+
+</p>
+
+	※舞台设计3D建模方案
+　<img src="/image/BADA1.jpg" alt="bandanime舞台设计方案" style="width: 80%; display: block; margin: 0 auto;">　
+
+ 	※入场周边特典方案
 　<img src="/image/bandanime1.jpg" alt="bandanime特典方案" style="width: 80%; display: block; margin: 0 auto;">　
-
   　
-
+    <p>
 
 
 ### 1. 实体周边与特典研发

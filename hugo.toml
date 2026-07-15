@@ -48,6 +48,15 @@ theme = "nomad-tech"
   # Portfolio Items
 
 [[params.portfolio]]
+  title = "BAND ANIME 音乐番同人ONLY"
+  type = "线下活动"
+  icon = "🌐"
+  image = "/portfolio/pic/BANDANIME.png" # 【新增】关键：图片路径
+  description = "ONLY主题展的视觉设计及周边设计"
+  tags = ["视觉设计", "周边产品设计"]
+  project_url = "/project/bandanime"
+
+[[params.portfolio]]
   title = "WA-MUSIC "
   type = "线下活动"
   icon = "📱" # 现在作为备选显示
@@ -64,15 +73,6 @@ theme = "nomad-tech"
   description = "上海时装周采访视频文案翻译及视频剪辑后期"
   tags = ["文案翻译（日语）", "视频拍摄", "视频剪辑", "视频后期"]
   project_url = "/project/windandsea"
-
-[[params.portfolio]]
-  title = "BAND ANIME 音乐番同人ONLY"
-  type = "线下活动"
-  icon = "🌐"
-  image = "/portfolio/pic/BANDANIME.png" # 【新增】关键：图片路径
-  description = "ONLY主题展的视觉设计及周边设计"
-  tags = ["视觉设计", "周边产品设计"]
-  project_url = "/project/bandanime"
 
 [[params.portfolio]]
   title = "安华汇-AH创趣场"
